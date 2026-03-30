@@ -1,6 +1,6 @@
 {
   "name": "risen",
-  "description": "Advanced AI Agent with 10+ specialized skills: multi-agent orchestration, memory management, web research, translation, document processing, data analysis, code generation, calendar management, email automation, and cross-platform communication. Powered by OpenClaw.",
+  "description": "Advanced AI Agent with 11 specialized skills: multi-agent orchestration, memory management, web research, translation, document processing, data analysis, code generation, calendar management, task automation, email automation, and cross-platform communication. Powered by OpenClaw.",
   "version": "2.0.0",
   "provider": {
     "name": "OpenClaw",
@@ -21,110 +21,77 @@
       "name": "Multi-Agent Orchestration",
       "description": "Spawn and coordinate multiple sub-agents (TDD team: lead, coder, tester) for complex task decomposition and parallel execution",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Spawn 3 agents to analyze this problem from different perspectives",
-        "Coordinate a team of agents to build a complete software project"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "memory-management",
       "name": "Memory Management",
       "description": "Persistent memory with tiered storage (HOT/WARM/COLD), semantic search, and automatic indexing",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Remember this important decision",
-        "Search my memory for information about X"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "web-access",
       "name": "Web Access & Research",
       "description": "Access 13+ platforms including Twitter, YouTube, Reddit, Bilibili, news sites for research and content retrieval",
       "inputModes": ["text"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Search Twitter for discussions about AI agents",
-        "Get the transcript of this YouTube video"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "translation",
       "name": "Translation & Localization",
       "description": "High-quality translation between Chinese and English with cultural adaptation",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Translate this article from English to Chinese",
-        "Localize this documentation"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "document-processing",
       "name": "Document Processing",
       "description": "Convert, extract, and manipulate documents including PDF, Word, Excel, images",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Convert Word to PDF",
-        "Extract text from images"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "data-analysis",
       "name": "Data Analysis",
       "description": "Analyze datasets, generate insights, create visualizations, and statistical reports",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json", "image"],
-      "examples": [
-        "Analyze this dataset and find trends",
-        "Create a visualization of this data"
-      ]
+      "outputModes": ["text", "json", "image"]
     },
     {
       "id": "code-generation",
       "name": "Code Generation & Review",
       "description": "Generate, review, and debug code in multiple programming languages",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Generate a REST API in Python",
-        "Review this code for security issues"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
-      "id": "calendar-scheduling",
+      "id": "calendar-management",
       "name": "Calendar & Scheduling",
       "description": "Manage calendar events, schedule meetings, and set reminders",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Schedule a meeting for tomorrow",
-        "Check my calendar for conflicts"
-      ]
+      "outputModes": ["text", "json"]
+    },
+    {
+      "id": "task-automation",
+      "name": "Task Automation",
+      "description": "Schedule and execute automated tasks including daily reports, periodic checks, and cron jobs",
+      "inputModes": ["text", "json"],
+      "outputModes": ["text", "json"]
     },
     {
       "id": "email-automation",
       "name": "Email Automation",
       "description": "Send emails via Gmail API, create templates, and manage email campaigns",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Send a report to stakeholders",
-        "Schedule weekly email updates"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "communication",
       "name": "Cross-Platform Communication",
       "description": "Send messages across multiple channels (Telegram, Discord, Signal, Email, Feishu)",
       "inputModes": ["text", "json"],
-      "outputModes": ["text"],
-      "examples": [
-        "Send a message to my Telegram",
-        "Post this update to Discord"
-      ]
+      "outputModes": ["text"]
     }
   ],
   "supportedInterfaces": [

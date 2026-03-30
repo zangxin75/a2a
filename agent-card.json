@@ -6,7 +6,7 @@
     "name": "OpenClaw",
     "url": "https://openclaw.ai"
   },
-  "url": "https://your-agent-endpoint.com/a2a",
+  "url": "https://risen-a2a-endpoint.resen-cn.workers.dev",
   "capabilities": {
     "streaming": true,
     "pushNotifications": false,
@@ -21,56 +21,35 @@
       "name": "Multi-Agent Orchestration",
       "description": "Spawn and coordinate multiple sub-agents for complex task decomposition and parallel execution",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Spawn 3 agents to analyze this problem from different perspectives",
-        "Coordinate a team of agents to build a complete software project"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "memory-management",
       "name": "Memory Management",
       "description": "Persistent memory with tiered storage (HOT/WARM/COLD), semantic search, and automatic indexing",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Remember this important decision",
-        "Search my memory for information about X"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "web-access",
       "name": "Web Access & Research",
       "description": "Access 13+ platforms including Twitter, YouTube, Reddit, Bilibili, news sites for research and content retrieval",
       "inputModes": ["text"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Search Twitter for discussions about AI agents",
-        "Get the transcript of this YouTube video",
-        "Research the latest news on a topic"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "task-automation",
       "name": "Task Automation",
       "description": "Schedule and execute automated tasks including daily reports, email notifications, and periodic checks",
       "inputModes": ["text", "json"],
-      "outputModes": ["text", "json"],
-      "examples": [
-        "Schedule a daily report at 7 AM",
-        "Set up a reminder for tomorrow"
-      ]
+      "outputModes": ["text", "json"]
     },
     {
       "id": "communication",
       "name": "Cross-Platform Communication",
       "description": "Send messages across multiple channels (Telegram, Discord, Signal, Email, Feishu)",
       "inputModes": ["text", "json"],
-      "outputModes": ["text"],
-      "examples": [
-        "Send a message to my Telegram",
-        "Post this update to Discord"
-      ]
+      "outputModes": ["text"]
     }
   ],
   "supportedInterfaces": [
